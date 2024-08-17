@@ -1,0 +1,16 @@
+{
+    "name": "Marcha Thai Massage",
+    "email": "help@marcha.com",
+    "phoneForTel": "+447415066799",
+    "phoneFormatted": "07415 066799",
+    "onlineBooking": "https://chachathaimassage.setmore.com/",
+    "address": {
+        "lineOne": "",
+        "lineTwo": "Ingol",
+        "city": "Preston",
+        "state": "England",
+        "zip": "PR2 3XE",
+        "mapLink": "https://maps.app.goo.gl/guZVV68XtzmHiB6t5"
+    },
+    "domain": "https://marchathaimassage.co.uk/"
+}

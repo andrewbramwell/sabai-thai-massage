@@ -1,0 +1,79 @@
+---
+title: 'Deep Tissue Massage'
+description: 'Explore deep tissue massage services at Cha Cha in Preston. Ideal for muscle tension relief and recovery. See benefits and book your session.'
+preloadImg: '/assets/images/banners/internal.webp'
+permalink: 'deep-tissue/'
+eleventyNavigation:
+    parent: Treatments
+    key: Deep Tissue
+    order: 300
+---
+
+{% extends "layouts/base.html" %}
+
+{% block head %}
+    <link rel="stylesheet" href="/assets/css/internal.css">
+{% endblock %}
+
+{% block body %}
+
+<!-- ============================================ -->
+<!--                   Banner                     -->
+<!-- ============================================ -->
+
+<div id="banner-1400">
+    <div class="cs-container">
+        <span class="cs-int-title">Deep Tissue Massage</span>
+        <div class="cs-breadcrumbs">
+            <a href="" class="cs-link">Home</a>
+            <a href="/deep-tissue/" class="cs-link cs-active">Deep Tissue</a>
+        </div>
+    </div>
+    <!--Background Image-->
+    <picture class="cs-background">
+        <!--Mobile Image-->
+        <source media="(max-width: 600px)" srcset="/assets/images/banners/internal-m.webp">
+        <!--Tablet and above Image-->
+        <source media="(min-width: 601px)" srcset="/assets/images/banners/internal.webp">
+        <img decoding="async" src="/assets/images/banners/internal.jpg" alt="massage" width="1280" height="568" aria-hidden="true">
+    </picture>
+</div>
+
+<!-- ============================================ -->
+<!--                 Content Page                 -->
+<!-- ============================================ -->
+
+<section id="content-page-1399">
+    <div class="cs-container">
+        <div class="cs-image-group">
+            <div class="cs-flex">
+                <picture class="cs-background">
+                    <!--Mobile Image-->
+                    <source media="(max-width: 600px)" srcset="/assets/images/side/thai3-m.webp">
+                    <!--Tablet and above Image-->
+                    <source media="(min-width: 601px)" srcset="/assets/images/side/thai3-m.webp">
+                    <img loading="lazy" decoding="async" src="/assets/images/side/thai3.jpg" alt="deep tissue massage" width="542" height="728">
+                </picture>
+            </div>
+        </div>
+        <div class="cs-content">
+            <h1 class="cs-title"><span class="cs-color">Deep Tissue Massage</span> in Preston </h1>
+            <p>Delve into the focused and restorative world of Deep Tissue Massage at Cha Cha Traditional Thai Massage. This specialized technique is renowned for targeting deep layers of muscle and connective tissue, making it ideal for addressing chronic tension and muscle knots.</p>
+            <p>Our experienced therapist applies firm pressure and slow, deliberate strokes to reach these deeper muscle layers. This method not only helps in alleviating pain and enhancing mobility but also aids in the recovery of muscle injuries.</p>
+            <p>Deep Tissue Massage is particularly beneficial for those dealing with ongoing muscular pain, high levels of stress, or postural problems. It's a therapeutic choice for achieving long-term relief and promoting physical wellness.</p>
+            <h3>Benefits of Deep Tissue Massage</h3>
+            <ul>
+                <li><strong>Alleviates Muscle Pain:</strong> Our deep tissue massage is effective in reducing chronic muscle tension and relieving discomfort, especially in deep muscle layers and areas prone to tightness such as the neck, lower back, and shoulders.</li>
+                <li><strong>Enhances Mobility:</strong> By loosening tight muscles and fascia, deep tissue massage helps improve range of motion and mobility, making it easier to engage in daily activities and exercise with less discomfort.</li>
+                <li><strong>Reduces Stress:</strong> The techniques used in deep tissue massage promote relaxation, significantly reducing stress and anxiety levels, and contributing to a more relaxed and focused state of mind.</li>
+                <li><strong>Promotes Recovery:</strong> Aiding in the healing of muscle injuries and improving overall muscle health, this massage is particularly beneficial for athletes and those with physical jobs or lifestyles.</li>
+                <li><strong>Improves Posture:</strong> Regular deep tissue massage sessions can help correct body posture by balancing muscle strength and length, which is especially beneficial for individuals who sit for long periods or have a sedentary lifestyle.</li>
+            </ul>
+        </div>
+        </div>
+    </div>
+</section>
+
+{% include 'components/cta.html' %}
+
+{% endblock %}

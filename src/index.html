@@ -1,0 +1,399 @@
+---
+title: 'Massage'
+description: 'Discover relaxation and rejuvenation at Cha Cha Thai Massage in Preston. Expert Thai massages tailored for your wellness journey. Book today!'
+preloadImg: '/assets/images/hero.webp'
+permalink: '/'
+eleventyNavigation:
+  key: Home
+  order: 100
+---
+
+{% extends "layouts/base.html" %}
+
+{% block head %}
+    <link rel="stylesheet" href="/assets/css/local.css" />
+    <link rel="stylesheet" href="/assets/css/critical.css" />
+
+    <!-- Script for Netlify Identity -->
+    <script defer src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    <script defer>
+        if (window.netlifyIdentity) {
+            window
+                .netlifyIdentity
+                .on('init', (user) => {
+                    if (!user) {
+                        window
+                            .netlifyIdentity
+                            .on('login', () => {
+                                document.location.href = '/admin/';
+                            });
+                    }
+                });
+        }
+    </script>
+{% endblock %}
+
+{% block body %}
+
+
+<!-- ============================================ -->
+<!--                    Hero                      -->
+<!-- ============================================ -->
+
+<section id="hero-1059">
+    <div class="cs-container">
+        <div class="cs-content">
+            <h1 class="cs-title">Traditional Thai Massage in Preston</h1>
+            <p class="cs-text">
+                At Cha Cha Traditional Thai Massage, we specialise in delivering authentic Thai massage and therapy in a serene and professional setting. Embark on a journey towards stress relief and holistic wellness with our expertly tailored treatments.
+            </p>
+            <a href="{{client.onlineBooking}}" class="cs-button-solid">Book Now</a>
+        </div>
+    </div>
+
+    <!-- Background Image -->
+    <picture class="cs-background">
+        <source media="(max-width: 600px)" srcset="/assets/images/hero-m.webp">
+        <source media="(min-width: 601px)" srcset="/assets/images/hero.webp">
+        <img decoding="async" src="/assets/images/hero.jpg" alt="woman receiving thai massage" width="2250" height="1500" aria-hidden="true">
+    </picture>
+</section>
+                                
+
+<!-- ============================================ -->
+<!--                Why Choose Us                 -->
+<!-- ============================================ -->
+
+<section id="why-choose-1635">
+    <div class="cs-container">
+        <div class="cs-content">
+            <div class="cs-flex">
+                <span class="cs-topper">Why Choose Us</span>
+                <h2 class="cs-title">Thai Massage Therapy for Your Path to Well-Being</h2>
+            </div>
+            <p class="cs-text">
+                We invite you to join us on a journey of rejuvenation. Our experienced Thai massage therapist is here to provide you with care tailored specifically to your needs. Using time-honored Thai massage techniques, we focus on offering a therapeutic experience that is as unique as you are. In our calm and welcoming space, we're committed to helping you find relaxation and balance. 
+            </p>
+        </div>  
+        <div class="cs-wrapper">
+            <ul class="cs-card-group">
+                <li class="cs-item">
+                    <picture class="cs-icon-wrapper">
+                        <img class="cs-icon"
+                                src="/assets/svgs/thai.svg"
+                                loading="lazy" decoding="async" alt="icon" width="32" height="32" aria-hidden="true">
+                    </picture>
+                    <!-- Text Grouped For Flexbox-->
+                    <div class="cs-text-group">
+                        <h3 class="cs-h3">Tailored Massage Journey</h3>
+                        <p class="cs-item-text">
+                            Your massage at Cha Cha Traditional Thai Massage is crafted just for you. We take the time to understand your unique needs, creating a massage experience that meets your personal wellness objectives.
+                        </p>
+                    </div>
+                </li>
+                <li class="cs-item">
+                    <picture class="cs-icon-wrapper">
+                        <img class="cs-icon" src="/assets/svgs/house.svg"
+                                loading="lazy" decoding="async" alt="icon" width="32" height="32" aria-hidden="true">
+                    </picture>
+                    <!-- Text Grouped For Flexbox-->
+                    <div class="cs-text-group">
+                        <h3 class="cs-h3">Thai Traditions and Welcoming Ambience</h3>
+                        <p class="cs-item-text">
+                            Enter a world where true Thai practices and warm hospitality converge. Our treatments embody the essence of Thai healing arts, offering you a peaceful haven in Preston.
+                        </p>
+                    </div>
+                </li>
+                <li class="cs-item">
+                    <picture class="cs-icon-wrapper">
+                        <img class="cs-icon"
+                                src="/assets/svgs/certificate.svg"
+                                loading="lazy" decoding="async" alt="icon" width="32" height="32" aria-hidden="true">
+                    </picture>
+                    <!-- Text Grouped For Flexbox-->
+                    <div class="cs-text-group">
+                        <h3 class="cs-h3">Experienced Therapist</h3>
+                        <p class="cs-item-text">
+                            Experience the skill of a well-trained therapist who is passionate about Thai massage. Their expert touch and deep knowledge create a journey to tranquility with every session.
+                        </p>
+                    </div>
+                </li>
+            </ul>
+            <div class="cs-image-group">
+                <div class="cs-picture-wrapper">
+                    <picture class="cs-picture cs-picture1">
+                        <!--Mobile Image-->
+                        <source media="(max-width: 600px)" srcset="/assets/images/why2-m.webp">
+                        <!--Tablet and above Image-->
+                        <source media="(min-width: 601px)" srcset="/assets/images/why2.webp">
+                        <img loading="lazy" decoding="async" src="/assets/images/why2.jpg" alt="meeting" width="434" height="414">
+                    </picture>
+                </div>
+                <picture class="cs-picture cs-picture2">
+                    <!--Mobile Image-->
+                    <source media="(max-width: 600px)" srcset="/assets/images/why.webp">
+                    <!--Tablet and above Image-->
+                    <source media="(min-width: 601px)" srcset="/assets/images/why.webp">
+                    <img loading="lazy" decoding="async" src="/assets/images/why.jpg" alt="on computer" width="197" height="197">
+                </picture>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ============================================ -->
+<!--             Side By Side Reverse             -->
+<!-- ============================================ -->
+
+<section id="sbs-r-870">
+    <div class="cs-container">
+        <picture class="cs-picture">
+            <!--Mobile Image-->
+            <source media="(max-width: 600px)" srcset="/assets/images/side/thai2-m.webp">
+            <!--Tablet and above Image-->
+            <source media="(min-width: 601px)" srcset="/assets/images/side/thai2.webp">
+            <img loading="lazy" decoding="async" src="/assets/images/side/thai2.jpg" alt="hot stone" width="630" height="775">
+        </picture>
+        <div class="cs-content">
+            <span class="cs-topper">Featured Treatment</span>
+            <h2 class="cs-title">Thai Traditional Massage</h2>
+            <p class="cs-text">
+                Discover the unique and holistic approach of Thai Traditional Massage. Renowned for its combination of acupressure, yoga-like stretching, and deep rhythmic compressions, this oil-free massage technique offers a distinctive therapeutic experience. In our serene Preston setting, our expert therapist skillfully uses hands, elbows, and even feet to not only alleviate muscle tension but also improve flexibility and circulation.
+            </p>
+            <p class="cs-text">
+                Immerse yourself in the true essence of Thai healing. Our Thai Traditional Massage is a journey of physical and mental rejuvenation, carefully crafted to respect ancient practices while addressing your modern-day stress and strain.
+            </p>
+            <a href="/thai-massage/" class="cs-button-solid">Thai Massage</a>
+        </div>
+    </div>
+</section>
+
+<!-- ============================================ -->
+<!--                  Services                    -->
+<!-- ============================================ -->
+
+<section id="services-879">
+    <div class="cs-container">
+        <div class="cs-content">
+            <span class="cs-topper">Popular</span>
+            <h2 class="cs-title">Enjoy a Memorable Experience</h2>
+            <p class="cs-text">
+                Step into a sanctuary of calm and healing at Cha Cha Traditional Thai Massage. Explore our popular treatments, each thoughtfully crafted to offer you a distinctive and enriching experience.
+            </p>
+        </div>
+        <ul class="cs-card-group">
+            <li class="cs-item">
+                <a href="/aromatherapy/" class="cs-link">
+                    <h3 class="cs-h3">Aromatherapy Massage</h3>
+                    <p class="cs-item-p">
+                        A gentle therapy incorporating essential oils to enhance both physical and emotional health.
+                    </p>
+                    <!--Backgorund Image-->
+                    <picture class="cs-background">
+                        <!--Mobile Image-->
+                        <source media="(max-width: 600px)" srcset="/assets/images/services/aromatherapy-m.webp">
+                        <!--Tablet and above Image-->
+                        <source media="(min-width: 601px)" srcset="/assets/images/services/aromatherapy.webp">
+                        <img loading="lazy" decoding="async" src="/assets/images/services/aromatherapy.jpg" alt="aroma massage" width="1280" height="568">
+                    </picture>
+                </a>
+            </li>
+            <li class="cs-item">
+                <a href="/back/" class="cs-link">
+                    <h3 class="cs-h3">Back, Neck & Shoulder Massage</h3>
+                    <p class="cs-item-p">
+                        Targets back, neck, and shoulders to relieve tension in stress-prone areas.
+                    </p>
+                    <!--Backgorund Image-->
+                    <picture class="cs-background">
+                        <!--Mobile Image-->
+                        <source media="(max-width: 600px)" srcset="/assets/images/services/back-m.webp">
+                        <!--Tablet and above Image-->
+                        <source media="(min-width: 601px)" srcset="/assets/images/services/back.webp">
+                        <img loading="lazy" decoding="async" src="/assets/images/services/back.jpg" alt="back massage" width="1280" height="568">
+                    </picture>
+                </a>
+            </li>
+            <li class="cs-item">
+                <a href="/foot-massage/" class="cs-link">
+                    <h3 class="cs-h3">Foot Massage</h3>
+                    <p class="cs-item-p">
+                        Focuses on the feet to alleviate stress and tension, perfect for soothing a common area of discomfort.
+                    </p>
+                    <!--Backgorund Image-->
+                    <picture class="cs-background">
+                        <!--Mobile Image-->
+                        <source media="(max-width: 600px)" srcset="/assets/images/services/foot-m.webp">
+                        <!--Tablet and above Image-->
+                        <source media="(min-width: 601px)" srcset="/assets/images/services/foot.webp">
+                        <img loading="lazy" decoding="async" src="/assets/images/services/foot.jpg" alt="foot massage" width="1280" height="568">
+                    </picture>
+                </a>
+            </li>
+        </ul>
+        <a href="/price-list/" class="cs-button-solid">See All Treatments</a>
+    </div>
+</section>
+                                
+                                
+                                
+<!-- ============================================ -->
+<!--                 Side By Side                 -->
+<!-- ============================================ -->
+
+<section id="sbs-867">
+    <div class="cs-container">
+        <picture class="cs-picture">
+            <!--Mobile Image-->
+            <source media="(max-width: 600px)" srcset="/assets/images/side/thai3-m.webp">
+            <!--Tablet and above Image-->
+            <source media="(min-width: 601px)" srcset="/assets/images/side/thai3.webp">
+            <img loading="lazy" decoding="async" src="/assets/images/side/thai3.jpg" alt="deep tissue" width="630" height="775">
+        </picture>
+        <div class="cs-content">
+            <span class="cs-topper">Featured Treatment</span>
+            <h2 class="cs-title">Deep Tissue Massage</h2>
+            <p class="cs-text">
+                Experience the focused and healing power of Deep Tissue Massage. This technique is known for its effectiveness in targeting deep layers of muscle and connective tissue, providing relief from chronic muscle tension and knots. Utilizing firm pressure and slow strokes, our experienced therapist in Preston skillfully reaches the deeper muscle layers, helping to reduce pain and improve mobility.
+            </p>
+            <p class="cs-text">
+                Delve into a therapy that goes beyond surface-level relief. Our Deep Tissue Massage is tailored to address your specific muscular issues and areas of tension, offering a profound sense of physical and mental release. It's a deeply therapeutic experience designed to alleviate long-standing discomfort and enhance your overall sense of well-being.
+            </p>
+            <a href="/deep-tissue" class="cs-button-solid">Deep Tissue Massage</a>
+        </div>
+    </div>
+</section>
+
+<!-- ============================================ -->
+<!--                    FAQ                       -->
+<!-- ============================================ -->
+
+<section id="faq-1109">
+    <div class="cs-container">
+        <div class="cs-content">
+            <span class="cs-topper">FAQ’s</span>
+            <h2 class="cs-title">Frequently Asked Questions</h2>
+            <picture class="cs-picture">
+                <!--Mobile Image-->
+                <source media="(max-width: 600px)" srcset="/assets/images/faq-m.webp">
+                <!--Tablet and above Image-->
+                <source media="(min-width: 601px)" srcset="/assets/images/faq.webp">
+                <img loading="lazy" decoding="async" src="/assets/images/faq.jpg" alt="appliance" width="522" height="400">
+            </picture>
+        </div>
+        <div class="cs-flex-group">
+            <ul class="cs-faq-group">
+                <!-- Active class added as default -->
+                <li class="cs-faq-item active">
+                    <button class="cs-button">
+                        <span class="cs-button-text">
+                            How often should I book a massage?
+                        </span>
+                    </button>
+                    <p class="cs-item-p">
+                        Your massage frequency should align with your personal health needs and goals. Consistent sessions, whether weekly or monthly, can enhance benefits like reduced pain and improved emotional health.
+                    </p>
+                </li>
+                <li class="cs-faq-item">
+                    <button class="cs-button">
+                        <span class="cs-button-text">
+                            Should I eat before a massage?
+                        </span>
+                    </button>
+                    <p class="cs-item-p">
+                        Avoid eating for at least 90 minutes prior to your massage. If necessary, opt for a light meal, as massages can impact digestion by increasing blood flow.
+                    </p>
+                </li>
+                <li class="cs-faq-item">
+                    <button class="cs-button">
+                        <span class="cs-button-text">
+                            How should I prepare for my massage?
+                        </span>
+                    </button>
+                    <p class="cs-item-p">
+                        Arrive a bit early to unwind and complete any needed forms. Dress comfortably and think about the areas you want to focus on during the session.
+                    </p>
+                </li>
+                <li class="cs-faq-item">
+                    <button class="cs-button">
+                        <span class="cs-button-text">
+                            What should I do after my massage?
+                        </span>
+                    </button>
+                    <p class="cs-item-p">
+                        It's important to hydrate well to aid in toxin removal. We also recommend resting and avoiding heavy physical activities for the day.
+                    </p>
+                </li>
+                <li class="cs-faq-item">
+                    <button class="cs-button">
+                        <span class="cs-button-text">
+                            Do you have any special deals or loyalty programs?
+                        </span>
+                    </button>
+                    <p class="cs-item-p">
+                        We offer a variety of promotions and loyalty discounts. For the most current information, please inquire during your visit or check our website.
+                    </p>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+                                
+
+<!-- ============================================ -->
+<!--                   Reviews                    -->
+<!-- ============================================ -->
+
+<section id="reviews-607">
+    <div class="cs-container">
+        <div class="cs-content">
+            <span class="cs-topper">Testimonials</span>
+            <h2 class="cs-title">Our Clients' Words</h2>
+            <p class="cs-text">
+                We take pride in the positive experiences of our clients at Cha Cha Traditional Thai Massage. Discover the testimonials that reflect our commitment to quality and care.
+            </p>
+        </div>
+        <ul class="cs-card-group">
+            <li class="cs-item">
+                <img class="cs-icon" src="/assets/svgs/gold-quote.svg" alt="quote icon" aria-hidden="true" width="40" height="38" loading="lazy" decoding="async">
+                <h3 class="cs-h3">Brilliant!</h3>
+                <p class="cs-item-text">
+                    Tried a few different places for my niggling stiff shoulder pain & cha cha has been the best so far, I've had a few sessions & she's been brilliant, definitely the place to come for a deep tissue massage!
+                </p>
+                <span class="cs-name">Farzana Valli</span>
+            </li>
+            <li class="cs-item">
+                <img class="cs-icon" src="/assets/svgs/gold-quote.svg" alt="quote icon" aria-hidden="true" width="40" height="38" loading="lazy" decoding="async">
+                <h3 class="cs-h3">Best ever!</h3>
+                <p class="cs-item-text">
+                    Genuinely the best massage I’ve ever had, I wouldn’t go anywhere else. She is very professional and knowledgeable. Very reasonable prices too.
+                </p>
+                <span class="cs-name">Kate Fox</span>
+            </li>
+            <li class="cs-item">
+                <img class="cs-icon" src="/assets/svgs/gold-quote.svg" alt="quote icon" aria-hidden="true" width="40" height="38" loading="lazy" decoding="async">
+                <h3 class="cs-h3">5 stars!</h3>
+                <p class="cs-item-text">
+                    Without doubt, the best deep tissue massage I have ever had. Really great masseuse, very knowledgeable and puts you at ease. Would recommend it to anyone. 5 stars.
+                </p>
+                <span class="cs-name">John Wilkinson</span>
+            </li>
+        </ul>
+        <a href="https://www.google.com/search?q=cha+cha+thai+massage+preston&rlz=1C5CHFA_enTH953TH953&oq=cha+cha+thai+massage+preston&gs_lcrp=EgZjaHJvbWUyCQgAEEUYORiABDIHCAEQABiABDIKCAIQABiABBiiBDIKCAMQABiABBiiBDIKCAQQABiiBBiJBTIKCAUQABiiBBiJBTIGCAYQRRg90gEHNzI3ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8#lrd=0x487b6d867157078b:0x5ada2f5a60edc9fc,3,,,," target="_blank" rel="noopener" class="cs-button-solid">Leave A Review</a>
+    </div>
+</section>
+
+
+
+
+<script>const faqItems = Array.from(document.querySelectorAll('.cs-faq-item'));
+    for (const item of faqItems) {
+        const onClick = () => {
+        item.classList.toggle('active')
+    }
+    item.addEventListener('click', onClick)
+    }
+</script>                 
+
+    {% include 'components/cta.html' %}
+{% endblock %}
