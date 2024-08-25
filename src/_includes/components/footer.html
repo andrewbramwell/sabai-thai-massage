@@ -8,10 +8,10 @@
         <!-- Logo Group -->
         <div class="cs-logo-group">
             <a aria-label="go back to home" class="cs-logo" href="/">
-                <img class="cs-logo-img" aria-hidden="true" loading="lazy" decoding="async" src="/assets/svgs/logo-full-w.svg" alt="logo" width="240" height="32">
+                <img class="cs-logo-img" aria-hidden="true" loading="lazy" decoding="async" src="/assets/svgs/logo-w.svg" alt="logo" width="240" height="32">
             </a>
             <div class="cs-social">
-                <a class="cs-social-link" aria-label="visit instagram profile" target="_blank" href="https://maps.app.goo.gl/onf9bnYAkG36JShZ6">
+                <a class="cs-social-link" aria-label="visit google business profile" target="_blank" href="{{client.address.mapLink}}">
                     <img class="cs-social-img" aria-hidden="true" loading="lazy" decoding="async" src="/assets/svgs/google.svg" alt="google my business" width="11" height="11">
                 </a>
             </div>
@@ -27,25 +27,13 @@
                     <a class="cs-link" href="/about/">About Us</a>
                 </li>
                 <li class="cs-li">
+                    <a class="cs-link" href="/massages/">Massages</a>
+                </li>
+                <li class="cs-li">
                     <a class="cs-link" href="/contact/">Contact Us</a>
                 </li>
                 <li class="cs-li">
-                    <a class="cs-link" href="/reviews/">Reviews</a>
-                </li>
-                <li class="cs-li">
-                    <a class="cs-link" href="/price-list/">Price List</a>
-                </li>
-                <li class="cs-li">
-                    <a class="cs-link" href="/aromatherapy/">Aromatherapy</a>
-                </li>
-                <li class="cs-li">
-                    <a class="cs-link" href="/thai-massage/">Thai Traditional </a>
-                </li>
-                <li class="cs-li">
-                    <a class="cs-link" href="/back/">Back & Shoulder</a>
-                </li>
-                <li class="cs-li">
-                    <a class="cs-link" href="/foot-massage/">Foot Massage</a>
+                    <a class="cs-link" href="/relaxing/">Relaxing Massage</a>
                 </li>
                 <li class="cs-li">
                     <a class="cs-link" href="/deep-tissue/">Deep Tissue</a>
@@ -60,7 +48,7 @@
                     <!--Make this link go to the google page-->
                     <a class="cs-link" href="/contact/" target="_blank">
                         <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="/assets/svgs/clock.svg" alt="clock icon" width="20" height="20">
-                        Mon-Sat: 9am – 8pm
+                        Mon-Sat: 10am – 8pm
                     </a>
                 </li>
                 <li class="cs-li">
@@ -76,7 +64,7 @@
                     </a>
                 </li>
                 <li class="cs-li">
-                    <a class="cs-link" href="https://maps.app.goo.gl/onf9bnYAkG36JShZ6" target="_blank" rel="noopener">
+                    <a class="cs-link" href="{{client.address.mapLink}}" target="_blank" rel="noopener">
                         <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="/assets/svgs/pin.svg" alt="pin icon" width="20" height="20">
                         {{client.address.lineTwo}},
                             {{client.address.city}}
@@ -91,4 +79,4 @@
             Designed & Hand Coded by <a href="https://splendidsites.com/" class="cs-credit-link" target="_blank">Splendid Sites</a>  © 2024 
         </span>
     </div>
-</footer>ode
+</footer>

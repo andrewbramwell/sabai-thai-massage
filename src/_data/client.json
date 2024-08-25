@@ -1,16 +1,16 @@
 {
-    "name": "Marcha Thai Massage",
-    "email": "help@marcha.com",
-    "phoneForTel": "+447415066799",
-    "phoneFormatted": "07415 066799",
-    "onlineBooking": "https://chachathaimassage.setmore.com/",
+    "name": "Sabai Thai Massage & Spa",
+    "email": "hello@sabaithaimassageandspa.co.uk",
+    "phoneForTel": "+447462023032",
+    "phoneFormatted": "07462 023032",
+    "onlineBooking": "https://sabaithaimassageandspa.setmore.com/",
     "address": {
-        "lineOne": "",
-        "lineTwo": "Ingol",
-        "city": "Preston",
+        "lineOne": "846 Christchurch Rd",
+        "lineTwo": "Boscombe",
+        "city": "Bournemouth",
         "state": "England",
-        "zip": "PR2 3XE",
-        "mapLink": "https://maps.app.goo.gl/guZVV68XtzmHiB6t5"
+        "zip": "BH7 6DQ",
+        "mapLink": "https://maps.app.goo.gl/bHB43R6UpHE5Bja87"
     },
-    "domain": "https://marchathaimassage.co.uk/"
+    "domain": "https://sabaithaimassageandspa.co.uk"
 }

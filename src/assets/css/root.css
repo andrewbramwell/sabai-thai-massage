@@ -4,9 +4,9 @@
 /* CodeStitch Root and Helpers */
 @media only screen and (min-width: 0em) {
   :root {
-    --primary: #A17C3A;
-    --primaryLight: #B49561;
-    --secondary: #A17C3A;
+    --primary: #7b4b94;
+    --primaryLight: #6d9f71;
+    --secondary: #7b4b94;
     --secondaryLight: #001f3f;
     --headerColor: #1a1a1a;
     --bodyTextColor: #4e4b66;
@@ -695,10 +695,10 @@ html {
     position: relative;
   }
   #cs-navigation .cs-li-link.cs-active {
-    color: var(--primary);
+    color: var(--primaryLight);
   }
   #cs-navigation .cs-li-link:hover {
-    color: var(--primary);
+    color: var(--primaryLight);
   }
   #cs-navigation .cs-button-solid {
     display: none;
@@ -946,7 +946,7 @@ html {
     color: var(--bodyTextColorWhite);
   }
   body.dark-mode #cs-navigation .cs-li.cs-dropdown:hover .cs-li-link:hover {
-    color: var(--primary);
+    color: var(--primaryLight);
   }
 }
 /*-- -------------------------- -->
@@ -983,7 +983,7 @@ html {
     color: var(--headerColor);
   }
   body.scroll #cs-navigation .cs-li-link.cs-active {
-    color: var(--primary);
+    color: var(--primaryLight);
   }
   body.scroll #cs-navigation .cs-li:hover .cs-li-link {
     color: var(--primary);
@@ -1179,10 +1179,10 @@ html {
     transition: color 0.3s;
   }
   #cs-navigation .cs-li-link:hover {
-    color: var(--primary);
+    color: var(--primaryLight);
   }
   #cs-navigation .cs-li-link.cs-active {
-    color: var(--primary);
+    color: var(--primaryLight);
   }
   #cs-navigation .cs-button-solid {
     font-size: 1rem;
@@ -1251,7 +1251,7 @@ html {
     color: var(--bodyTextColorWhite);
   }
   body.dark-mode #cs-navigation .cs-li-link.cs-active {
-    color: var(--primary);
+    color: var(--primaryLight);
   }
   body.dark-mode #cs-navigation .cs-li:hover .cs-li-link {
     color: var(--primary);
@@ -1333,7 +1333,7 @@ html {
     display: block;
   }
   #banner-1400 .cs-link.cs-active {
-    color: var(--primary);
+    color: var(--primaryLight);
   }
   #banner-1400 .cs-background {
     width: 100%;

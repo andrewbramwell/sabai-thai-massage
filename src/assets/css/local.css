@@ -130,7 +130,7 @@
     margin-top: -2.375em;
     margin-left: 1.5em;
     padding: 1em;
-    background-color: #F7F5F0;
+    background-color: #F7F7F7;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -212,7 +212,7 @@
 @media only screen and (min-width: 64rem) {
   #why-choose-1635 {
     /* set the darker background color on the main div */
-    background-color: #F8F5F1;
+    background-color: #F7F7F7;
     overflow: hidden;
   }
   #why-choose-1635 .cs-content {
@@ -276,6 +276,9 @@
   body.dark-mode #why-choose-1635 .cs-header {
     color: var(--bodyTextColorWhite);
   }
+  body.dark-mode #why-choose-1635 .cs-topper {
+    color: var(--primaryLight);
+  }
   body.dark-mode #why-choose-1635 .cs-text,
   body.dark-mode #why-choose-1635 .cs-item-text {
     opacity: 0.8;
@@ -308,7 +311,7 @@
 @media only screen and (min-width: 0rem) {
   #sbs-r-870 {
     padding: var(--sectionPadding);
-    background-color: #F7F5F0;
+    background-color: #F7F7F7;
   }
   #sbs-r-870 .cs-container {
     width: 100%;
@@ -601,7 +604,7 @@
   #sbs-867 {
     padding: var(--sectionPadding);
     padding-bottom: 100px;
-    background-color: #F7F5F0;
+    background-color: #F7F7F7;
   }
   #sbs-867 .cs-container {
     width: 100%;
@@ -760,7 +763,7 @@
   #faq-1109 .cs-faq-item {
     list-style: none;
     width: 100%;
-    background-color: #F7F5F0;
+    background-color: #F7F7F7;
     border-radius: 1rem;
     /* clips all corners of the button that overlap the rounded border */
     overflow: hidden;
@@ -792,7 +795,7 @@
     font-weight: bold;
     /* 20px - 24px */
     padding: clamp(1.25rem, 2vw, 1.5rem);
-    background-color: #F7F5F0;
+    background-color: #F7F7F7;
     border: none;
     color: var(--headerColor);
     display: block;
@@ -883,6 +886,9 @@
   body.dark-mode #faq-1109 .cs-item-p {
     color: var(--bodyTextColorWhite);
   }
+  body.dark-mode #faq-1109 .cs-topper {
+    color: var(--primaryLight);
+  }
   body.dark-mode #faq-1109 .cs-faq-item {
     background-color: var(--accent);
   }
@@ -914,7 +920,7 @@
 @media only screen and (min-width: 0rem) {
   #reviews-607 {
     padding: var(--sectionPadding);
-    background-color: #F7F5F0;
+    background-color: #F7F7F7;
   }
   #reviews-607 .cs-container {
     width: 100%;

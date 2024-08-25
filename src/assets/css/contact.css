@@ -5,7 +5,7 @@
 @media only screen and (min-width: 0rem) {
   #contact-1388 {
     padding: var(--sectionPadding);
-    background-color: #F7F5F0;
+    background-color: #F7F7F7;
     position: relative;
     z-index: 1;
   }
@@ -149,7 +149,7 @@
     padding: 0;
     padding-left: 1.5rem;
     color: var(--headerColor);
-    background-color: #F7F5F0;
+    background-color: #F7F7F7;
     border-radius: 0.5rem;
     border: none;
     /* prevents padding from adding to height and width */
@@ -223,6 +223,9 @@
   body.dark-mode #contact-1388 .cs-contact-text,
   body.dark-mode #contact-1388 .cs-link {
     opacity: 0.8;
+  }
+  body.dark-mode #contact-1388 .cs-topper {
+    color: var(--primaryLight);
   }
   body.dark-mode #contact-1388 .cs-icon-wrapper {
     border-color: #fff;

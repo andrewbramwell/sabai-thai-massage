@@ -1,12 +1,11 @@
 ---
-title: 'Price List'
-description: 'View our pricing for expert Thai massages at Cha Cha in Preston. Affordable rates for a range of treatments tailored to your wellness needs.'
+title: 'Massages'
+description: 'Explore our range of massage treatments at Sabai Thai Massage & Spa. Find the perfect massage for your needs and budget. Book your session today.'
 preloadImg: '/assets/images/banners/internal.webp'
-permalink: 'price-list/'
+permalink: 'massages/'
 eleventyNavigation:
-    parent: Treatments
-    key: Price List
-    order: 100
+    key: Massages
+    order: 200
 ---
 
 {% extends "layouts/base.html" %}
@@ -22,10 +21,10 @@ eleventyNavigation:
 
 <div id="banner-1400">
     <div class="cs-container">
-        <span class="cs-int-title">Price List</span>
+        <span class="cs-int-title">Massages</span>
         <div class="cs-breadcrumbs">
             <a href="/" class="cs-link">Home</a>
-            <a href="/price-list/" class="cs-link cs-active">Price List</a>
+            <a href="/massages/" class="cs-link cs-active">Massages</a>
         </div>
     </div>
     <!--Background Image-->
@@ -49,7 +48,7 @@ eleventyNavigation:
     <div class="cs-container">
         <div class="cs-content">
             <picture class="cs-icon-wrapper">
-                <img class="cs-icon" decoding="async" src="/assets/svgs/logo-gold.svg" alt="divider" width="181" height="36" aria-hidden="true">
+                <img class="cs-icon" decoding="async" src="/assets/svgs/logo-p.svg" alt="divider" width="181" height="36" aria-hidden="true">
             </picture>
             <h2 class="cs-title">Our Treatments</h2>
             <div class="cs-button-group">
@@ -57,16 +56,10 @@ eleventyNavigation:
                     30 Min
                 </button>
                 <button class="cs-button" data-filter="two" onclick="window.location.href='#cs-menu-group';">
-                    45 Min
-                </button>
-                <button class="cs-button" data-filter="three" onclick="window.location.href='#cs-menu-group';">
                     60 Min
                 </button>
-                <button class="cs-button" data-filter="four" onclick="window.location.href='#cs-menu-group';">
+                <button class="cs-button" data-filter="three" onclick="window.location.href='#cs-menu-group';">
                     90 Min
-                </button>
-                <button class="cs-button" data-filter="five" onclick="window.location.href='#cs-menu-group';">
-                    120 Min
                 </button>
             </div>
         </div>
@@ -77,16 +70,34 @@ eleventyNavigation:
                 <div class="cs-container">
                     <ul class="cs-card-group">
                         <li class="cs-item">
-                            <picture class="cs-picture"  aria-hidden="true">
-                                <source media="(max-width: 600px)" srcset="/assets/images/services/thai.webp">
-                                <source media="(min-width: 601px)" srcset="/assets/images/services/thai.webp">
-                                <img loading="lazy" decoding="async" src="/assets/images/services/thai.jpg" alt="thai massage" width="160" height="160">
-                                </picture>
-                                <div class="cs-info">
+                            <picture class="cs-picture" aria-hidden="true">
+                                <source media="(max-width: 600px)" srcset="/assets/images/services/oil-massage.webp">
+                                <source media="(min-width: 601px)" srcset="/assets/images/services/oil-massage.webp">
+                                <img loading="lazy" decoding="async" src="/assets/images/services/oil-massage.jpg" alt="relaxing thai oil massage" width="160" height="160">
+                            </picture>
+                            <div class="cs-info">
                                 <h3 class="cs-h3">
-                                    <span class="cs-name">Thai Traditional Massage</span>
+                                    <span class="cs-name">Relaxing Massage (Thai Oil)</span>
                                     <span class="cs-price">
-                                        £30
+                                        £35
+                                    </span>
+                                </h3>
+                                <p class="cs-item-p">
+                                    A soothing full-body treatment using aromatic oils to promote relaxation and reduce stress.
+                                </p>
+                            </div>
+                        </li>
+                        <li class="cs-item">
+                            <picture class="cs-picture" aria-hidden="true">
+                                <source media="(max-width: 600px)" srcset="/assets/images/services/thai-massage.webp">
+                                <source media="(min-width: 601px)" srcset="/assets/images/services/thai-massage.webp">
+                                <img loading="lazy" decoding="async" src="/assets/images/services/thai-massage.jpg" alt="traditional thai massage" width="160" height="160">
+                            </picture>
+                            <div class="cs-info">
+                                <h3 class="cs-h3">
+                                    <span class="cs-name">Traditional Thai Massage</span>
+                                    <span class="cs-price">
+                                        £35
                                     </span>
                                 </h3>
                                 <p class="cs-item-p">
@@ -95,130 +106,12 @@ eleventyNavigation:
                             </div>
                         </li>
                         <li class="cs-item">
-                            <picture class="cs-picture"  aria-hidden="true">
-                                <source media="(max-width: 600px)" srcset="/assets/images/services/aromatherapy.webp">
-                                <source media="(min-width: 601px)" srcset="/assets/images/services/aromatherapy.webp">
-                                <img loading="lazy" decoding="async" src="/assets/images/services/aromatherapy.jpg" alt="aromatherapy massage" width="160" height="160">
-                                </picture>
-                                <div class="cs-info">
-                                <h3 class="cs-h3">
-                                    <span class="cs-name">Aromatherapy Massage</span>
-                                    <span class="cs-price">
-                                        £30
-                                    </span>
-                                </h3>
-                                <p class="cs-item-p">
-                                    A gentle therapy incorporating essential oils to enhance both physical and emotional health. 
-                                </p>
-                            </div>
-                        </li>
-                        <li class="cs-item">
-                            <picture class="cs-picture"  aria-hidden="true">
+                            <picture class="cs-picture" aria-hidden="true">
                                 <source media="(max-width: 600px)" srcset="/assets/images/services/deep-tissue.webp">
                                 <source media="(min-width: 601px)" srcset="/assets/images/services/deep-tissue.webp">
                                 <img loading="lazy" decoding="async" src="/assets/images/services/deep-tissue.jpg" alt="deep tissue massage" width="160" height="160">
-                                </picture>
-                                <div class="cs-info">
-                                <h3 class="cs-h3">
-                                    <span class="cs-name">Deep Tissue Massage</span>
-                                    <span class="cs-price">
-                                        £30
-                                    </span>
-                                </h3>
-                                <p class="cs-item-p">
-                                    Relieves pain and tension by targeting deep muscles, aiding in recovery and promoting well-being.
-                                </p>
-                            </div>
-                        </li>
-                        <li class="cs-item">
-                            <picture class="cs-picture"  aria-hidden="true">
-                                <source media="(max-width: 600px)" srcset="/assets/images/services/back.webp">
-                                <source media="(min-width: 601px)" srcset="/assets/images/services/back.webp">
-                                <img loading="lazy" decoding="async" src="/assets/images/services/back.jpg" alt="thai massage" width="160" height="160">
-                                </picture>
-                                <div class="cs-info">
-                                <h3 class="cs-h3">
-                                    <span class="cs-name">Back, Neck & Shoulder Massage</span>
-                                    <span class="cs-price">
-                                        £30
-                                    </span>
-                                </h3>
-                                <p class="cs-item-p">
-                                    Targets back, neck, and shoulders to relieve tension in stress-prone areas.
-                                </p>
-                            </div>
-                        </li>
-                        <li class="cs-item">
-                            <picture class="cs-picture"  aria-hidden="true">
-                                <source media="(max-width: 600px)" srcset="/assets/images/services/foot.webp">
-                                <source media="(min-width: 601px)" srcset="/assets/images/services/foot.webp">
-                                <img loading="lazy" decoding="async" src="/assets/images/services/foot.jpg" alt="thai massage" width="160" height="160">
-                                </picture>
-                                <div class="cs-info">
-                                <h3 class="cs-h3">
-                                    <span class="cs-name">Foot Massage</span>
-                                    <span class="cs-price">
-                                        £30
-                                    </span>
-                                </h3>
-                                <p class="cs-item-p">
-                                    Focuses on the feet to alleviate stress and tension, perfect for soothing a common area of discomfort.
-                                </p>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </section>
-        </div>
-        <!--45 min-->
-        <div id="cs-menu2-1037" class="cs-menu-group" data-category="two">
-            <!--45 min-->
-            <section class="cs-menu">
-                <div class="cs-container">
-                    <ul class="cs-card-group">
-                        <li class="cs-item">
-                            <picture class="cs-picture"  aria-hidden="true">
-                                <source media="(max-width: 600px)" srcset="/assets/images/services/thai.webp">
-                                <source media="(min-width: 601px)" srcset="/assets/images/services/thai.webp">
-                                <img loading="lazy" decoding="async" src="/assets/images/services/thai.jpg" alt="thai massage" width="160" height="160">
-                                </picture>
-                                <div class="cs-info">
-                                <h3 class="cs-h3">
-                                    <span class="cs-name">Thai Traditional Massage</span>
-                                    <span class="cs-price">
-                                        £40
-                                    </span>
-                                </h3>
-                                <p class="cs-item-p">
-                                    A therapeutic practice combining stretching and deep massage techniques without the use of oil.
-                                </p>
-                            </div>
-                        </li>
-                        <li class="cs-item">
-                            <picture class="cs-picture"  aria-hidden="true">
-                                <source media="(max-width: 600px)" srcset="/assets/images/services/aromatherapy.webp">
-                                <source media="(min-width: 601px)" srcset="/assets/images/services/aromatherapy.webp">
-                                <img loading="lazy" decoding="async" src="/assets/images/services/aromatherapy.jpg" alt="aromatherapy massage" width="160" height="160">
-                                </picture>
-                                <div class="cs-info">
-                                <h3 class="cs-h3">
-                                    <span class="cs-name">Aromatherapy Massage</span>
-                                    <span class="cs-price">
-                                        £40
-                                    </span>
-                                </h3>
-                                <p class="cs-item-p">
-                                    A gentle therapy incorporating essential oils to enhance both physical and emotional health. 
-                                </p>
-                            </div>
-                        </li>
-                        <li class="cs-item">
-                            <picture class="cs-picture"  aria-hidden="true">
-                                <source media="(max-width: 600px)" srcset="/assets/images/services/deep-tissue.webp">
-                                <source media="(min-width: 601px)" srcset="/assets/images/services/deep-tissue.webp">
-                                <img loading="lazy" decoding="async" src="/assets/images/services/deep-tissue.jpg" alt="deep tissue massage" width="160" height="160">
-                                </picture>
-                                <div class="cs-info">
+                            </picture>
+                            <div class="cs-info">
                                 <h3 class="cs-h3">
                                     <span class="cs-name">Deep Tissue Massage</span>
                                     <span class="cs-price">
@@ -231,30 +124,30 @@ eleventyNavigation:
                             </div>
                         </li>
                         <li class="cs-item">
-                            <picture class="cs-picture"  aria-hidden="true">
-                                <source media="(max-width: 600px)" srcset="/assets/images/services/back.webp">
-                                <source media="(min-width: 601px)" srcset="/assets/images/services/back.webp">
-                                <img loading="lazy" decoding="async" src="/assets/images/services/back.jpg" alt="thai massage" width="160" height="160">
-                                </picture>
-                                <div class="cs-info">
+                            <picture class="cs-picture" aria-hidden="true">
+                                <source media="(max-width: 600px)" srcset="/assets/images/services/sports-massage.webp">
+                                <source media="(min-width: 601px)" srcset="/assets/images/services/sports-massage.webp">
+                                <img loading="lazy" decoding="async" src="/assets/images/services/sports-massage.jpg" alt="sports massage" width="160" height="160">
+                            </picture>
+                            <div class="cs-info">
                                 <h3 class="cs-h3">
-                                    <span class="cs-name">Back, Neck & Shoulder Massage</span>
+                                    <span class="cs-name">Sports Massage</span>
                                     <span class="cs-price">
                                         £40
                                     </span>
                                 </h3>
                                 <p class="cs-item-p">
-                                    Targets back, neck, and shoulders to relieve tension in stress-prone areas.
+                                    Targets athletic-related muscle tension and injuries, enhancing performance and reducing recovery time.
                                 </p>
                             </div>
                         </li>
                         <li class="cs-item">
-                            <picture class="cs-picture"  aria-hidden="true">
-                                <source media="(max-width: 600px)" srcset="/assets/images/services/foot.webp">
-                                <source media="(min-width: 601px)" srcset="/assets/images/services/foot.webp">
-                                <img loading="lazy" decoding="async" src="/assets/images/services/foot.jpg" alt="thai massage" width="160" height="160">
-                                </picture>
-                                <div class="cs-info">
+                            <picture class="cs-picture" aria-hidden="true">
+                                <source media="(max-width: 600px)" srcset="/assets/images/services/foot-massage.webp">
+                                <source media="(min-width: 601px)" srcset="/assets/images/services/foot-massage.webp">
+                                <img loading="lazy" decoding="async" src="/assets/images/services/foot-massage.jpg" alt="foot massage" width="160" height="160">
+                            </picture>
+                            <div class="cs-info">
                                 <h3 class="cs-h3">
                                     <span class="cs-name">Foot Massage</span>
                                     <span class="cs-price">
@@ -263,6 +156,78 @@ eleventyNavigation:
                                 </h3>
                                 <p class="cs-item-p">
                                     Focuses on the feet to alleviate stress and tension, perfect for soothing a common area of discomfort.
+                                </p>
+                            </div>
+                        </li>
+                        <li class="cs-item">
+                            <picture class="cs-picture" aria-hidden="true">
+                                <source media="(max-width: 600px)" srcset="/assets/images/services/head-massage.webp">
+                                <source media="(min-width: 601px)" srcset="/assets/images/services/head-massage.webp">
+                                <img loading="lazy" decoding="async" src="/assets/images/services/head-massage.jpg" alt="head, shoulder, and back massage" width="160" height="160">
+                            </picture>
+                            <div class="cs-info">
+                                <h3 class="cs-h3">
+                                    <span class="cs-name">Head, Shoulder, and Back Massage</span>
+                                    <span class="cs-price">
+                                        £40
+                                    </span>
+                                </h3>
+                                <p class="cs-item-p">
+                                    Focuses on upper body tension relief, easing headaches and improving posture and flexibility.
+                                </p>
+                            </div>
+                        </li>
+                        <li class="cs-item">
+                            <picture class="cs-picture" aria-hidden="true">
+                                <source media="(max-width: 600px)" srcset="/assets/images/services/couples-massage.webp">
+                                <source media="(min-width: 601px)" srcset="/assets/images/services/couples-massage.webp">
+                                <img loading="lazy" decoding="async" src="/assets/images/services/couples-massage.jpg" alt="couple's relaxing massage" width="160" height="160">
+                            </picture>
+                            <div class="cs-info">
+                                <h3 class="cs-h3">
+                                    <span class="cs-name">Couple's Relaxing Massage (Thai Oil Massage)</span>
+                                    <span class="cs-price">
+                                        £70
+                                    </span>
+                                </h3>
+                                <p class="cs-item-p">
+                                    Shared experience of gentle, oil-based massage promoting relaxation and connection for couples.
+                                </p>
+                            </div>
+                        </li>
+                        <li class="cs-item">
+                            <picture class="cs-picture" aria-hidden="true">
+                                <source media="(max-width: 600px)" srcset="/assets/images/services/couples-2.webp">
+                                <source media="(min-width: 601px)" srcset="/assets/images/services/couples-2.webp">
+                                <img loading="lazy" decoding="async" src="/assets/images/services/couples-2.jpg" alt="couple's deep tissue massage" width="160" height="160">
+                            </picture>
+                            <div class="cs-info">
+                                <h3 class="cs-h3">
+                                    <span class="cs-name">Couple's Deep Tissue Massage</span>
+                                    <span class="cs-price">
+                                        £80
+                                    </span>
+                                </h3>
+                                <p class="cs-item-p">
+                                    Intensive treatment for two, addressing chronic muscle tension and promoting joint mobility.
+                                </p>
+                            </div>
+                        </li>
+                        <li class="cs-item">
+                            <picture class="cs-picture" aria-hidden="true">
+                                <source media="(max-width: 600px)" srcset="/assets/images/services/couples-3.webp">
+                                <source media="(min-width: 601px)" srcset="/assets/images/services/couples-3.webp">
+                                <img loading="lazy" decoding="async" src="/assets/images/services/couples-3.jpg" alt="couple's traditional thai massage" width="160" height="160">
+                            </picture>
+                            <div class="cs-info">
+                                <h3 class="cs-h3">
+                                    <span class="cs-name">Couple's Traditional Thai Massage</span>
+                                    <span class="cs-price">
+                                        £70
+                                    </span>
+                                </h3>
+                                <p class="cs-item-p">
+                                    Synchronized stretching and pressure point therapy for pairs, improving energy flow and flexibility.
                                 </p>
                             </div>
                         </li>
@@ -271,20 +236,38 @@ eleventyNavigation:
             </section>
         </div>
         <!--60 min-->
-        <div id="cs-menu3-1037" class="cs-menu-group" data-category="three">
+        <div id="cs-menu3-1037" class="cs-menu-group" data-category="two">
             <!--60 min-->
             <section class="cs-menu">
                 <div class="cs-container">
                     <ul class="cs-card-group">
                         <li class="cs-item">
-                            <picture class="cs-picture"  aria-hidden="true">
-                                <source media="(max-width: 600px)" srcset="/assets/images/services/thai.webp">
-                                <source media="(min-width: 601px)" srcset="/assets/images/services/thai.webp">
-                                <img loading="lazy" decoding="async" src="/assets/images/services/thai.jpg" alt="thai massage" width="160" height="160">
-                                </picture>
-                                <div class="cs-info">
+                            <picture class="cs-picture" aria-hidden="true">
+                                <source media="(max-width: 600px)" srcset="/assets/images/services/oil-massage.webp">
+                                <source media="(min-width: 601px)" srcset="/assets/images/services/oil-massage.webp">
+                                <img loading="lazy" decoding="async" src="/assets/images/services/oil-massage.jpg" alt="relaxing thai oil massage" width="160" height="160">
+                            </picture>
+                            <div class="cs-info">
                                 <h3 class="cs-h3">
-                                    <span class="cs-name">Thai Traditional Massage</span>
+                                    <span class="cs-name">Relaxing Massage (Thai Oil)</span>
+                                    <span class="cs-price">
+                                        £55
+                                    </span>
+                                </h3>
+                                <p class="cs-item-p">
+                                    A soothing full-body treatment using aromatic oils to promote relaxation and reduce stress.
+                                </p>
+                            </div>
+                        </li>
+                        <li class="cs-item">
+                            <picture class="cs-picture" aria-hidden="true">
+                                <source media="(max-width: 600px)" srcset="/assets/images/services/thai-massage.webp">
+                                <source media="(min-width: 601px)" srcset="/assets/images/services/thai-massage.webp">
+                                <img loading="lazy" decoding="async" src="/assets/images/services/thai-massage.jpg" alt="traditional thai massage" width="160" height="160">
+                            </picture>
+                            <div class="cs-info">
+                                <h3 class="cs-h3">
+                                    <span class="cs-name">Traditional Thai Massage</span>
                                     <span class="cs-price">
                                         £50
                                     </span>
@@ -295,34 +278,16 @@ eleventyNavigation:
                             </div>
                         </li>
                         <li class="cs-item">
-                            <picture class="cs-picture"  aria-hidden="true">
-                                <source media="(max-width: 600px)" srcset="/assets/images/services/aromatherapy.webp">
-                                <source media="(min-width: 601px)" srcset="/assets/images/services/aromatherapy.webp">
-                                <img loading="lazy" decoding="async" src="/assets/images/services/aromatherapy.jpg" alt="aromatherapy massage" width="160" height="160">
-                                </picture>
-                                <div class="cs-info">
-                                <h3 class="cs-h3">
-                                    <span class="cs-name">Aromatherapy Massage</span>
-                                    <span class="cs-price">
-                                        £50
-                                    </span>
-                                </h3>
-                                <p class="cs-item-p">
-                                    A gentle therapy incorporating essential oils to enhance both physical and emotional health. 
-                                </p>
-                            </div>
-                        </li>
-                        <li class="cs-item">
-                            <picture class="cs-picture"  aria-hidden="true">
+                            <picture class="cs-picture" aria-hidden="true">
                                 <source media="(max-width: 600px)" srcset="/assets/images/services/deep-tissue.webp">
                                 <source media="(min-width: 601px)" srcset="/assets/images/services/deep-tissue.webp">
                                 <img loading="lazy" decoding="async" src="/assets/images/services/deep-tissue.jpg" alt="deep tissue massage" width="160" height="160">
-                                </picture>
-                                <div class="cs-info">
+                            </picture>
+                            <div class="cs-info">
                                 <h3 class="cs-h3">
                                     <span class="cs-name">Deep Tissue Massage</span>
                                     <span class="cs-price">
-                                        £50
+                                        £60
                                     </span>
                                 </h3>
                                 <p class="cs-item-p">
@@ -331,38 +296,110 @@ eleventyNavigation:
                             </div>
                         </li>
                         <li class="cs-item">
-                            <picture class="cs-picture"  aria-hidden="true">
-                                <source media="(max-width: 600px)" srcset="/assets/images/services/back.webp">
-                                <source media="(min-width: 601px)" srcset="/assets/images/services/back.webp">
-                                <img loading="lazy" decoding="async" src="/assets/images/services/back.jpg" alt="thai massage" width="160" height="160">
-                                </picture>
-                                <div class="cs-info">
+                            <picture class="cs-picture" aria-hidden="true">
+                                <source media="(max-width: 600px)" srcset="/assets/images/services/sports-massage.webp">
+                                <source media="(min-width: 601px)" srcset="/assets/images/services/sports-massage.webp">
+                                <img loading="lazy" decoding="async" src="/assets/images/services/sports-massage.jpg" alt="sports massage" width="160" height="160">
+                            </picture>
+                            <div class="cs-info">
                                 <h3 class="cs-h3">
-                                    <span class="cs-name">Back, Neck & Shoulder Massage</span>
+                                    <span class="cs-name">Sports Massage</span>
                                     <span class="cs-price">
-                                        £50
+                                        £60
                                     </span>
                                 </h3>
                                 <p class="cs-item-p">
-                                    Targets back, neck, and shoulders to relieve tension in stress-prone areas.
+                                    Targets athletic-related muscle tension and injuries, enhancing performance and reducing recovery time.
                                 </p>
                             </div>
                         </li>
                         <li class="cs-item">
-                            <picture class="cs-picture"  aria-hidden="true">
-                                <source media="(max-width: 600px)" srcset="/assets/images/services/foot.webp">
-                                <source media="(min-width: 601px)" srcset="/assets/images/services/foot.webp">
-                                <img loading="lazy" decoding="async" src="/assets/images/services/foot.jpg" alt="thai massage" width="160" height="160">
-                                </picture>
-                                <div class="cs-info">
+                            <picture class="cs-picture" aria-hidden="true">
+                                <source media="(max-width: 600px)" srcset="/assets/images/services/foot-massage.webp">
+                                <source media="(min-width: 601px)" srcset="/assets/images/services/foot-massage.webp">
+                                <img loading="lazy" decoding="async" src="/assets/images/services/foot-massage.jpg" alt="foot massage" width="160" height="160">
+                            </picture>
+                            <div class="cs-info">
                                 <h3 class="cs-h3">
                                     <span class="cs-name">Foot Massage</span>
                                     <span class="cs-price">
-                                        £50
+                                        £55
                                     </span>
                                 </h3>
                                 <p class="cs-item-p">
                                     Focuses on the feet to alleviate stress and tension, perfect for soothing a common area of discomfort.
+                                </p>
+                            </div>
+                        </li>
+                        <li class="cs-item">
+                            <picture class="cs-picture" aria-hidden="true">
+                                <source media="(max-width: 600px)" srcset="/assets/images/services/head-massage.webp">
+                                <source media="(min-width: 601px)" srcset="/assets/images/services/head-massage.webp">
+                                <img loading="lazy" decoding="async" src="/assets/images/services/head-massage.jpg" alt="head, shoulder, and back massage" width="160" height="160">
+                            </picture>
+                            <div class="cs-info">
+                                <h3 class="cs-h3">
+                                    <span class="cs-name">Head, Shoulder, and Back Massage</span>
+                                    <span class="cs-price">
+                                        £55
+                                    </span>
+                                </h3>
+                                <p class="cs-item-p">
+                                    Focuses on upper body tension relief, easing headaches and improving posture and flexibility.
+                                </p>
+                            </div>
+                        </li>
+                        <li class="cs-item">
+                            <picture class="cs-picture" aria-hidden="true">
+                                <source media="(max-width: 600px)" srcset="/assets/images/services/couples-massage.webp">
+                                <source media="(min-width: 601px)" srcset="/assets/images/services/couples-massage.webp">
+                                <img loading="lazy" decoding="async" src="/assets/images/services/couples-massage.jpg" alt="couple's relaxing massage" width="160" height="160">
+                            </picture>
+                            <div class="cs-info">
+                                <h3 class="cs-h3">
+                                    <span class="cs-name">Couple's Relaxing Massage (Thai Oil Massage)</span>
+                                    <span class="cs-price">
+                                        £110
+                                    </span>
+                                </h3>
+                                <p class="cs-item-p">
+                                    Shared experience of gentle, oil-based massage promoting relaxation and connection for couples.
+                                </p>
+                            </div>
+                        </li>
+                        <li class="cs-item">
+                            <picture class="cs-picture" aria-hidden="true">
+                                <source media="(max-width: 600px)" srcset="/assets/images/services/couples-2.webp">
+                                <source media="(min-width: 601px)" srcset="/assets/images/services/couples-2.webp">
+                                <img loading="lazy" decoding="async" src="/assets/images/services/couples-2.jpg" alt="couple's deep tissue massage" width="160" height="160">
+                            </picture>
+                            <div class="cs-info">
+                                <h3 class="cs-h3">
+                                    <span class="cs-name">Couple's Deep Tissue Massage</span>
+                                    <span class="cs-price">
+                                        £120
+                                    </span>
+                                </h3>
+                                <p class="cs-item-p">
+                                    Intensive treatment for two, addressing chronic muscle tension and promoting joint mobility.
+                                </p>
+                            </div>
+                        </li>
+                        <li class="cs-item">
+                            <picture class="cs-picture" aria-hidden="true">
+                                <source media="(max-width: 600px)" srcset="/assets/images/services/couples-3.webp">
+                                <source media="(min-width: 601px)" srcset="/assets/images/services/couples-3.webp">
+                                <img loading="lazy" decoding="async" src="/assets/images/services/couples-3.jpg" alt="couple's traditional thai massage" width="160" height="160">
+                            </picture>
+                            <div class="cs-info">
+                                <h3 class="cs-h3">
+                                    <span class="cs-name">Couple's Traditional Thai Massage</span>
+                                    <span class="cs-price">
+                                        £100
+                                    </span>
+                                </h3>
+                                <p class="cs-item-p">
+                                    Synchronized stretching and pressure point therapy for pairs, improving energy flow and flexibility.
                                 </p>
                             </div>
                         </li>
@@ -371,22 +408,40 @@ eleventyNavigation:
             </section>
         </div>
         <!--90 min-->
-        <div id="cs-menu4-1037" class="cs-menu-group" data-category="four">
+        <div id="cs-menu4-1037" class="cs-menu-group" data-category="three">
             <!--90 min-->
             <section class="cs-menu">
                 <div class="cs-container">
                     <ul class="cs-card-group">
                         <li class="cs-item">
-                            <picture class="cs-picture"  aria-hidden="true">
-                                <source media="(max-width: 600px)" srcset="/assets/images/services/thai.webp">
-                                <source media="(min-width: 601px)" srcset="/assets/images/services/thai.webp">
-                                <img loading="lazy" decoding="async" src="/assets/images/services/thai.jpg" alt="thai massage" width="160" height="160">
-                                </picture>
-                                <div class="cs-info">
+                            <picture class="cs-picture" aria-hidden="true">
+                                <source media="(max-width: 600px)" srcset="/assets/images/services/oil-massage.webp">
+                                <source media="(min-width: 601px)" srcset="/assets/images/services/oil-massage.webp">
+                                <img loading="lazy" decoding="async" src="/assets/images/services/oil-massage.jpg" alt="relaxing thai oil massage" width="160" height="160">
+                            </picture>
+                            <div class="cs-info">
                                 <h3 class="cs-h3">
-                                    <span class="cs-name">Thai Traditional Massage</span>
+                                    <span class="cs-name">Relaxing Massage (Thai Oil)</span>
                                     <span class="cs-price">
-                                        £75
+                                        £85
+                                    </span>
+                                </h3>
+                                <p class="cs-item-p">
+                                    A soothing full-body treatment using aromatic oils to promote relaxation and reduce stress.
+                                </p>
+                            </div>
+                        </li>
+                        <li class="cs-item">
+                            <picture class="cs-picture" aria-hidden="true">
+                                <source media="(max-width: 600px)" srcset="/assets/images/services/thai-massage.webp">
+                                <source media="(min-width: 601px)" srcset="/assets/images/services/thai-massage.webp">
+                                <img loading="lazy" decoding="async" src="/assets/images/services/thai-massage.jpg" alt="traditional thai massage" width="160" height="160">
+                            </picture>
+                            <div class="cs-info">
+                                <h3 class="cs-h3">
+                                    <span class="cs-name">Traditional Thai Massage</span>
+                                    <span class="cs-price">
+                                        £80
                                     </span>
                                 </h3>
                                 <p class="cs-item-p">
@@ -395,34 +450,16 @@ eleventyNavigation:
                             </div>
                         </li>
                         <li class="cs-item">
-                            <picture class="cs-picture"  aria-hidden="true">
-                                <source media="(max-width: 600px)" srcset="/assets/images/services/aromatherapy.webp">
-                                <source media="(min-width: 601px)" srcset="/assets/images/services/aromatherapy.webp">
-                                <img loading="lazy" decoding="async" src="/assets/images/services/aromatherapy.jpg" alt="aromatherapy massage" width="160" height="160">
-                                </picture>
-                                <div class="cs-info">
-                                <h3 class="cs-h3">
-                                    <span class="cs-name">Aromatherapy Massage</span>
-                                    <span class="cs-price">
-                                        £75
-                                    </span>
-                                </h3>
-                                <p class="cs-item-p">
-                                    A gentle therapy incorporating essential oils to enhance both physical and emotional health. 
-                                </p>
-                            </div>
-                        </li>
-                        <li class="cs-item">
-                            <picture class="cs-picture"  aria-hidden="true">
+                            <picture class="cs-picture" aria-hidden="true">
                                 <source media="(max-width: 600px)" srcset="/assets/images/services/deep-tissue.webp">
                                 <source media="(min-width: 601px)" srcset="/assets/images/services/deep-tissue.webp">
                                 <img loading="lazy" decoding="async" src="/assets/images/services/deep-tissue.jpg" alt="deep tissue massage" width="160" height="160">
-                                </picture>
-                                <div class="cs-info">
+                            </picture>
+                            <div class="cs-info">
                                 <h3 class="cs-h3">
                                     <span class="cs-name">Deep Tissue Massage</span>
                                     <span class="cs-price">
-                                        £75
+                                        £90
                                     </span>
                                 </h3>
                                 <p class="cs-item-p">
@@ -431,34 +468,34 @@ eleventyNavigation:
                             </div>
                         </li>
                         <li class="cs-item">
-                            <picture class="cs-picture"  aria-hidden="true">
-                                <source media="(max-width: 600px)" srcset="/assets/images/services/back.webp">
-                                <source media="(min-width: 601px)" srcset="/assets/images/services/back.webp">
-                                <img loading="lazy" decoding="async" src="/assets/images/services/back.jpg" alt="thai massage" width="160" height="160">
-                                </picture>
-                                <div class="cs-info">
+                            <picture class="cs-picture" aria-hidden="true">
+                                <source media="(max-width: 600px)" srcset="/assets/images/services/sports-massage.webp">
+                                <source media="(min-width: 601px)" srcset="/assets/images/services/sports-massage.webp">
+                                <img loading="lazy" decoding="async" src="/assets/images/services/sports-massage.jpg" alt="sports massage" width="160" height="160">
+                            </picture>
+                            <div class="cs-info">
                                 <h3 class="cs-h3">
-                                    <span class="cs-name">Back, Neck & Shoulder Massage</span>
+                                    <span class="cs-name">Sports Massage</span>
                                     <span class="cs-price">
-                                        £75
+                                        £95
                                     </span>
                                 </h3>
                                 <p class="cs-item-p">
-                                    Targets back, neck, and shoulders to relieve tension in stress-prone areas.
+                                    Targets athletic-related muscle tension and injuries, enhancing performance and reducing recovery time.
                                 </p>
                             </div>
                         </li>
                         <li class="cs-item">
-                            <picture class="cs-picture"  aria-hidden="true">
-                                <source media="(max-width: 600px)" srcset="/assets/images/services/foot.webp">
-                                <source media="(min-width: 601px)" srcset="/assets/images/services/foot.webp">
-                                <img loading="lazy" decoding="async" src="/assets/images/services/foot.jpg" alt="thai massage" width="160" height="160">
-                                </picture>
-                                <div class="cs-info">
+                            <picture class="cs-picture" aria-hidden="true">
+                                <source media="(max-width: 600px)" srcset="/assets/images/services/foot-massage.webp">
+                                <source media="(min-width: 601px)" srcset="/assets/images/services/foot-massage.webp">
+                                <img loading="lazy" decoding="async" src="/assets/images/services/foot-massage.jpg" alt="foot massage" width="160" height="160">
+                            </picture>
+                            <div class="cs-info">
                                 <h3 class="cs-h3">
                                     <span class="cs-name">Foot Massage</span>
                                     <span class="cs-price">
-                                        £75
+                                        £90
                                     </span>
                                 </h3>
                                 <p class="cs-item-p">
@@ -466,103 +503,75 @@ eleventyNavigation:
                                 </p>
                             </div>
                         </li>
-                    </ul>
-                </div>
-            </section>
-        </div>
-        <!--120 min-->
-        <div id="cs-menu5-1037" class="cs-menu-group" data-category="five">
-            <!--120 min-->
-            <section class="cs-menu">
-                <div class="cs-container">
-                    <ul class="cs-card-group">
                         <li class="cs-item">
-                            <picture class="cs-picture"  aria-hidden="true">
-                                <source media="(max-width: 600px)" srcset="/assets/images/services/thai.webp">
-                                <source media="(min-width: 601px)" srcset="/assets/images/services/thai.webp">
-                                <img loading="lazy" decoding="async" src="/assets/images/services/thai.jpg" alt="thai massage" width="160" height="160">
-                                </picture>
-                                <div class="cs-info">
+                            <picture class="cs-picture" aria-hidden="true">
+                                <source media="(max-width: 600px)" srcset="/assets/images/services/head-massage.webp">
+                                <source media="(min-width: 601px)" srcset="/assets/images/services/head-massage.webp">
+                                <img loading="lazy" decoding="async" src="/assets/images/services/head-massage.jpg" alt="head, shoulder, and back massage" width="160" height="160">
+                            </picture>
+                            <div class="cs-info">
                                 <h3 class="cs-h3">
-                                    <span class="cs-name">Thai Traditional Massage</span>
+                                    <span class="cs-name">Head, Shoulder, and Back Massage</span>
                                     <span class="cs-price">
-                                        £95
+                                        £90
                                     </span>
                                 </h3>
                                 <p class="cs-item-p">
-                                    A therapeutic practice combining stretching and deep massage techniques without the use of oil.
+                                    Focuses on upper body tension relief, easing headaches and improving posture and flexibility.
                                 </p>
                             </div>
                         </li>
                         <li class="cs-item">
-                            <picture class="cs-picture"  aria-hidden="true">
-                                <source media="(max-width: 600px)" srcset="/assets/images/services/aromatherapy.webp">
-                                <source media="(min-width: 601px)" srcset="/assets/images/services/aromatherapy.webp">
-                                <img loading="lazy" decoding="async" src="/assets/images/services/aromatherapy.jpg" alt="aromatherapy massage" width="160" height="160">
-                                </picture>
-                                <div class="cs-info">
+                            <picture class="cs-picture" aria-hidden="true">
+                                <source media="(max-width: 600px)" srcset="/assets/images/services/couples-massage.webp">
+                                <source media="(min-width: 601px)" srcset="/assets/images/services/couples-massage.webp">
+                                <img loading="lazy" decoding="async" src="/assets/images/services/couples-massage.jpg" alt="couple's relaxing massage" width="160" height="160">
+                            </picture>
+                            <div class="cs-info">
                                 <h3 class="cs-h3">
-                                    <span class="cs-name">Aromatherapy Massage</span>
+                                    <span class="cs-name">Couple's Relaxing Massage (Thai Oil Massage)</span>
                                     <span class="cs-price">
-                                        £95
+                                        £170
                                     </span>
                                 </h3>
                                 <p class="cs-item-p">
-                                    A gentle therapy incorporating essential oils to enhance both physical and emotional health. 
+                                    Shared experience of gentle, oil-based massage promoting relaxation and connection for couples.
                                 </p>
                             </div>
                         </li>
                         <li class="cs-item">
-                            <picture class="cs-picture"  aria-hidden="true">
-                                <source media="(max-width: 600px)" srcset="/assets/images/services/deep-tissue.webp">
-                                <source media="(min-width: 601px)" srcset="/assets/images/services/deep-tissue.webp">
-                                <img loading="lazy" decoding="async" src="/assets/images/services/deep-tissue.jpg" alt="deep tissue massage" width="160" height="160">
-                                </picture>
-                                <div class="cs-info">
+                            <picture class="cs-picture" aria-hidden="true">
+                                <source media="(max-width: 600px)" srcset="/assets/images/services/couples-2.webp">
+                                <source media="(min-width: 601px)" srcset="/assets/images/services/couples-2.webp">
+                                <img loading="lazy" decoding="async" src="/assets/images/services/couples-2.jpg" alt="couple's deep tissue massage" width="160" height="160">
+                            </picture>
+                            <div class="cs-info">
                                 <h3 class="cs-h3">
-                                    <span class="cs-name">Deep Tissue Massage</span>
+                                    <span class="cs-name">Couple's Deep Tissue Massage</span>
                                     <span class="cs-price">
-                                        £95
+                                        £180
                                     </span>
                                 </h3>
                                 <p class="cs-item-p">
-                                    Relieves pain and tension by targeting deep muscles, aiding in recovery and promoting well-being.
+                                    Intensive treatment for two, addressing chronic muscle tension and promoting joint mobility.
                                 </p>
                             </div>
                         </li>
                         <li class="cs-item">
-                            <picture class="cs-picture"  aria-hidden="true">
-                                <source media="(max-width: 600px)" srcset="/assets/images/services/back.webp">
-                                <source media="(min-width: 601px)" srcset="/assets/images/services/back.webp">
-                                <img loading="lazy" decoding="async" src="/assets/images/services/back.jpg" alt="thai massage" width="160" height="160">
-                                </picture>
-                                <div class="cs-info">
+                            <picture class="cs-picture" aria-hidden="true">
+                                <source media="(max-width: 600px)" srcset="/assets/images/services/couples-3.webp">
+                                <source media="(min-width: 601px)" srcset="/assets/images/services/couples-3.webp">
+                                <img loading="lazy" decoding="async" src="/assets/images/services/couples-3.jpg" alt="couple's traditional thai massage" width="160" height="160">
+                            </picture>
+                            <div class="cs-info">
                                 <h3 class="cs-h3">
-                                    <span class="cs-name">Back, Neck & Shoulder Massage</span>
+                                    <span class="cs-name">Couple's Traditional Thai Massage</span>
                                     <span class="cs-price">
-                                        £95
+                                        £160
                                     </span>
                                 </h3>
                                 <p class="cs-item-p">
-                                    Targets back, neck, and shoulders to relieve tension in stress-prone areas.
-                                </p>
-                            </div>
-                        </li>
-                        <li class="cs-item">
-                            <picture class="cs-picture"  aria-hidden="true">
-                                <source media="(max-width: 600px)" srcset="/assets/images/services/foot.webp">
-                                <source media="(min-width: 601px)" srcset="/assets/images/services/foot.webp">
-                                <img loading="lazy" decoding="async" src="/assets/images/services/foot.jpg" alt="thai massage" width="160" height="160">
-                                </picture>
-                                <div class="cs-info">
-                                <h3 class="cs-h3">
-                                    <span class="cs-name">Foot Massage</span>
-                                    <span class="cs-price">
-                                        £95
-                                    </span>
-                                </h3>
-                                <p class="cs-item-p">
-                                    Focuses on the feet to alleviate stress and tension, perfect for soothing a common area of discomfort.
+                                    Synchronized stretching and pressure point therapy for pairs, improving energy flow and flexibility.
                                 </p>
                             </div>
                         </li>
